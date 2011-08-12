@@ -1,4 +1,4 @@
-[FILE_LOCATION]
+﻿[FILE_LOCATION]
 
 FILE DATABASE.*=%path_database%iah/#/artigo.*
 FILE FULINV.*=%path_database%iah/#/search.*
@@ -61,27 +61,27 @@ FILE newissue.*=%path_database%newissue/newissue.*
 
 [INDEX_DEFINITION]
 
-INDEX To=^pTodos os �ndices^eTodos los indices^iAll indexes^d*^xTO ^yFULINV
-INDEX Ti=^pPalavras do t�tulo^ePalabras del t�tulo^iTitle words^xTI ^yPREINV^uTI_^mTI_
+INDEX To=^pTodos os índices^eTodos los indices^iAll indexes^d*^xTO ^yFULINV
+INDEX Ti=^pPalavras do título^ePalabras del título^iTitle words^xTI ^yPREINV^uTI_^mTI_
 INDEX Au=^pAutor^eAutor^iAuthor^xAU ^yPREINV^uAU_^mAU_
 INDEX Kw=^pPalavras Chave^ePalabras Clave^iKeywords^xKW ^yPREINV^uKW_^mKW_
 INDEX Ab=^pResumo^eResumen^iAbstract^xAB ^yPREINV^uAB_^mAB_
-INDEX Yr=^pAno de publica��o^eA�o de publicaci�n^iPublication year^xYR ^yPREINV^uYR_^mYR_^tshort
-INDEX Af=^pAfilia��o^eAfiliaci�n^iAffiliation^xAF ^yPREINV^uAF_^mAF_
-INDEX Ct=^pPa�s da Afilia��o^ePais de la Afiliaci�n^iAffiliation Country^xCT ^yCOUNTRY^mCT_
-INDEX Or=^pOrganiza��o^eOrganizaci�n^iOrganization^xOR ^yORGANIZATION^mOR_
+INDEX Yr=^pAno de publicação^eAño de publicación^iPublication year^xYR ^yPREINV^uYR_^mYR_^tshort
+INDEX Af=^pAfiliação^eAfiliación^iAffiliation^xAF ^yPREINV^uAF_^mAF_
+INDEX Ct=^pPaís da Afiliação^ePais de la Afiliación^iAffiliation Country^xCT ^yCOUNTRY^mCT_
+INDEX Or=^pOrganização^eOrganización^iOrganization^xOR ^yORGANIZATION^mOR_
 INDEX Ol=^pIdioma Original^eIdioma Original^iOriginal Language^xOL ^yOLANG
 INDEX Dt=^pTipo do Documento^eTipo del Documento^iDocument Type^xDT ^yPREINV^uDT_^mDT_
-I_NDEX Dv=^pDivis�o da Afilia��o^eSector de la Afiliaci�n^iAffiliation Division^xDV ^yPREINV^uDV_^mDV_
-I_NDEX St=^pEstado da Afilia��o^eProvincia de la Afiliaci�n^iAffiliation State^xST ^yPREINV^uST_^mST_
-I_NDEX Ci=^pCidade da Afilia��o^eCiudad de la Afiliaci�n^iAffiliation City^xCI ^yPREINV^uCI_^mCI_
+I_NDEX Dv=^pDivis�o da Afiliação^eSector de la Afiliación^iAffiliation Division^xDV ^yPREINV^uDV_^mDV_
+I_NDEX St=^pEstado da Afiliação^eProvincia de la Afiliación^iAffiliation State^xST ^yPREINV^uST_^mST_
+I_NDEX Ci=^pCidade da Afiliação^eCiudad de la Afiliación^iAffiliation City^xCI ^yPREINV^uCI_^mCI_
 
 [AOT]
-INDEX Ta=^pTipo de artigo^eTipo de art�culo^iArticle type^xTA ^yTIPART^mTA_^tshort^rCollection
-INDEX Or=^pAfilia��o - Organiza��o^eAfiliaci�n - Organizaci�n^iAffiliation - Organization^xOR ^yAFORG^mOR_^rCollection
-INDEX Pp=^pAfilia��o - Pa�s, Pa�s^eAfiliaci�n - Pais, Pais^iAffiliation - Country, Country^xPP ^yAFPAISPAIS^mPP_^rCollection
-IN_DEX Ci=^pAfilia��o - Cidade^eAfiliaci�n - Ciudad^iAffiliation - City^xCI ^yAFCID^mCI_^rCollection
-IN_DEX Ax=^pAfilia��o - Pa�s, Pa�s^eAfiliaci�n - Pais, Pais^iAffiliation - Country, Country^xAX ^yAFPAISPAIS^mAX_^rCollection
+INDEX Ta=^pTipo de artigo^eTipo de artículo^iArticle type^xTA ^yTIPART^mTA_^tshort^rCollection
+INDEX Or=^pAfiliação - Organização^eAfiliación - Organización^iAffiliation - Organization^xOR ^yAFORG^mOR_^rCollection
+INDEX Pp=^pAfiliação - País, País^eAfiliación - Pais, Pais^iAffiliation - Country, Country^xPP ^yAFPAISPAIS^mPP_^rCollection
+IN_DEX Ci=^pAfiliação - Cidade^eAfiliación - Ciudad^iAffiliation - City^xCI ^yAFCID^mCI_^rCollection
+IN_DEX Ax=^pAfiliação - País, País^eAfiliación - Pais, Pais^iAffiliation - Country, Country^xAX ^yAFPAISPAIS^mAX_^rCollection
 [/AOT]
 
 
